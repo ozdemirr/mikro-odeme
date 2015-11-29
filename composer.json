@@ -20,5 +20,6 @@
     "psr-0": {
       "MikroOdeme": "lib/"
     }
-  }
+  },
+  "version": "0.1.0"
 }
