@@ -19,7 +19,7 @@ class SubscribeResourceModel extends BaseResourceModel
 {
 
     public function __construct(){
-        self::$wsdlAddress = "https://www.3pay.com/services/SubscriberManagementService.asmx?wsdl";
+        self::$wsdlAddress = "https://www.wirecard.com.tr/services/SubscriberManagementService.asmx?wsdl";
     }
 
     public function setSubscriberId($subscriberId){
