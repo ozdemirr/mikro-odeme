@@ -22,11 +22,11 @@ class SmsResourceModel extends BaseResourceModel
 
     public function __construct($custom = null){
 
-        self::$wsdlAddress = "http://vas.mikro-odeme.com/services/msendsmsservice.asmx?wsdl";
+        self::$wsdlAddress = "http://www.wirecard.com.tr/vas/services/msendsmsservice.asmx?wsdl";
 
         //this means, custom number will be used
         if(!is_null($custom)){
-            self::$wsdlAddress = "http://vas.mikro-odeme.com/services/MCustomSendSMSService.asmx?wsdl";
+            self::$wsdlAddress = "http://www.wirecard.com.tr/vas/services/MCustomSendSMSService.asmx?wsdl";
         }
 
     }
